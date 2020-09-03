@@ -307,3 +307,7 @@ PRODUCT_COPY_FILES += \
 
     # Volume Dialog plugins
     -include packages/apps/Plugins/plugins.mk
+
+PRODUCT_PACKAGES += \
+    StockMiuiSliderOverlay \
+    MD2MiuiSliderOverlay
